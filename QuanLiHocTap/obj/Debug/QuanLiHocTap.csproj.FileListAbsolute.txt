@@ -1,0 +1,6 @@
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\QuanLiHocTap.dll.config
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\QuanLiHocTap.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\QuanLiHocTap.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\obj\Debug\QuanLiHocTap.csprojResolveAssemblyReference.cache
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\obj\Debug\QuanLiHocTap.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\obj\Debug\QuanLiHocTap.pdb

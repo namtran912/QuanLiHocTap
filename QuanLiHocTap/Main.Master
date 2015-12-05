@@ -1,0 +1,65 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="QuanLiHocTap.Main" %>
+<%@ Register src="WUC/Login.ascx" tagname="Login" tagprefix="uc1" %>
+
+<%@ Register src="WUC/Menu.ascx" tagname="Menu" tagprefix="uc2" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            width: 101%;
+        }
+        .auto-style2 {
+            height: 156px;
+        }
+        .auto-style3 {
+            height: 35px;
+        }
+        .auto-style6 {
+            height: 60px;
+        }
+        .auto-style12 {
+            height: 137px;
+        }
+        .auto-style13 {
+            height: 137px;
+            width: 122px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+        
+        <table class="auto-style1">
+            <tr>
+                <td class="auto-style2" colspan="2"></td>
+            </tr>
+            <tr>
+                <td class="auto-style6" colspan="2">
+                    <uc1:Login ID="Login" runat="server" />
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style13">
+                    <uc2:Menu ID="Menu1" runat="server" />
+                </td>
+                <td class="auto-style12">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                    </asp:ContentPlaceHolder>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style3" colspan="2"></td>
+            </tr>
+        </table>
+        
+    </div>
+    </form>
+</body>
+</html>

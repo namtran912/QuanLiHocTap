@@ -1,7 +1,6 @@
 ﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Main.master.cs" Inherits="QuanLiHocTap.Main" %>
-<%@ Register src="WUC/Login.ascx" tagname="Login" tagprefix="uc1" %>
 
-<%@ Register src="WUC/Menu.ascx" tagname="Menu" tagprefix="uc2" %>
+<%@ Register src="WUC/DangNhap.ascx" tagname="DangNhap" tagprefix="uc1" %>
 
 <!DOCTYPE html>
 
@@ -12,25 +11,45 @@
     </asp:ContentPlaceHolder>
     <style type="text/css">
         .auto-style1 {
-            width: 101%;
-        }
-        .auto-style2 {
-            height: 156px;
+            width: 81%;
         }
         .auto-style3 {
             height: 35px;
         }
-        .auto-style6 {
-            height: 60px;
+        .auto-style16 {
+            height: 149px;
+            width: 118px;
+        }
+        .auto-style17 {
+            width: 546px;
+        }
+        .auto-style18 {
+            height: 26px;
+            width: 546px;
+        }
+        .auto-style19 {
+            height: 30px;
+            width: 1429px;
+        }
+        .auto-style20 {
+            height: 137px;
+            width: 1429px;
         }
         .auto-style12 {
             height: 137px;
         }
+        .auto-style14 {
+            height: 182px;
+            width: 25px;
+        }
         .auto-style13 {
             height: 137px;
-            width: 122px;
+            width: 191px;
         }
-    </style>
+        .auto-style6 {
+            height: 60px;
+        }
+        </style>
 </head>
 <body>
     <form id="form1" runat="server">
@@ -38,21 +57,27 @@
         
         <table class="auto-style1">
             <tr>
-                <td class="auto-style2" colspan="2"></td>
+                <td class="auto-style16" colspan="2">
+                    &nbsp;</td>
             </tr>
             <tr>
-                <td class="auto-style6" colspan="2">
-                    <uc1:Login ID="Login" runat="server" />
+                <td class="auto-style17"></td>
+                <td class="auto-style19">
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    <uc1:DangNhap ID="DangNhap" runat="server" />
                 </td>
+                <td></td>
             </tr>
             <tr>
-                <td class="auto-style13">
-                    <uc2:Menu ID="Menu1" runat="server" />
+                <td class="auto-style18">
+                    <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+                    </asp:ContentPlaceHolder>
                 </td>
-                <td class="auto-style12">
+                <td class="auto-style20">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </td>
+                <td></td>
             </tr>
             <tr>
                 <td class="auto-style3" colspan="2"></td>

@@ -53,24 +53,57 @@
     <Reference Include="System.Web.Mobile" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Admin\Admin.aspx" />
+    <Content Include="Admin\CapNhatDiem.aspx" />
+    <Content Include="Admin\CapNhatSinhVien.aspx" />
+    <Content Include="DangKy.aspx" />
     <Content Include="index.aspx" />
-    <Content Include="QuanLiHocTap.mdf" />
-    <Content Include="TraCuuDiem.aspx" />
-    <Content Include="TraCuuThuHang.aspx" />
-    <Content Include="User.aspx" />
-    <Content Include="WUC\Login.ascx" />
-    <Content Include="WUC\Menu.ascx" />
+    <Content Include="User\TraCuuDiem.aspx" />
+    <Content Include="User\TraCuuThuHang.aspx" />
+    <Content Include="User\User.aspx" />
+    <Content Include="WUC\Admin\CapNhatDiem.ascx" />
+    <Content Include="WUC\Admin\CapNhatSinhVien.ascx" />
+    <Content Include="WUC\Dangky.ascx" />
+    <Content Include="WUC\DangNhap.ascx" />
+    <Content Include="WUC\User\Menu.ascx" />
     <Content Include="Scripts\jquery-1.7.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.7.1.js" />
     <Content Include="Scripts\jquery-1.7.1.min.js" />
     <Content Include="Web.config" />
-    <Content Include="WUC\TraCuuDiem.ascx" />
-    <Content Include="WUC\TraCuuThuHang.ascx" />
-    <Content Include="WUC\User.ascx" />
+    <Content Include="WUC\Admin\Menu_Admin.ascx" />
+    <Content Include="WUC\User\TraCuuDiem.ascx" />
+    <Content Include="WUC\User\TraCuuThuHang.ascx" />
+    <Content Include="WUC\User\User.ascx" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ChuyenNganhDTO.cs" />
-    <Compile Include="DataProvider.cs" />
+    <Compile Include="Admin\Admin.aspx.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\Admin.aspx.designer.cs">
+      <DependentUpon>Admin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CapNhatDiem.aspx.cs">
+      <DependentUpon>CapNhatDiem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CapNhatDiem.aspx.designer.cs">
+      <DependentUpon>CapNhatDiem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Admin\CapNhatSinhVien.aspx.cs">
+      <DependentUpon>CapNhatSinhVien.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Admin\CapNhatSinhVien.aspx.designer.cs">
+      <DependentUpon>CapNhatSinhVien.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="DangKy.aspx.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="DangKy.aspx.designer.cs">
+      <DependentUpon>DangKy.aspx</DependentUpon>
+    </Compile>
     <Compile Include="index.aspx.cs">
       <DependentUpon>index.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -78,35 +111,54 @@
     <Compile Include="index.aspx.designer.cs">
       <DependentUpon>index.aspx</DependentUpon>
     </Compile>
-    <Compile Include="MonHocCuaSinhVienBUS.cs" />
-    <Compile Include="MonHocCuaSinhVienDAO.cs" />
-    <Compile Include="TraCuuDiem.aspx.cs">
+    <Compile Include="User\TraCuuDiem.aspx.cs">
       <DependentUpon>TraCuuDiem.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TraCuuDiem.aspx.designer.cs">
+    <Compile Include="User\TraCuuDiem.aspx.designer.cs">
       <DependentUpon>TraCuuDiem.aspx</DependentUpon>
     </Compile>
-    <Compile Include="TraCuuThuHang.aspx.cs">
+    <Compile Include="User\TraCuuThuHang.aspx.cs">
       <DependentUpon>TraCuuThuHang.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="TraCuuThuHang.aspx.designer.cs">
+    <Compile Include="User\TraCuuThuHang.aspx.designer.cs">
       <DependentUpon>TraCuuThuHang.aspx</DependentUpon>
     </Compile>
-    <Compile Include="User.aspx.cs">
+    <Compile Include="User\User.aspx.cs">
       <DependentUpon>User.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="User.aspx.designer.cs">
+    <Compile Include="User\User.aspx.designer.cs">
       <DependentUpon>User.aspx</DependentUpon>
     </Compile>
-    <Compile Include="WUC\Login.ascx.cs">
-      <DependentUpon>Login.ascx</DependentUpon>
+    <Compile Include="WUC\Admin\CapNhatDiem.ascx.cs">
+      <DependentUpon>CapNhatDiem.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WUC\Login.ascx.designer.cs">
-      <DependentUpon>Login.ascx</DependentUpon>
+    <Compile Include="WUC\Admin\CapNhatDiem.ascx.designer.cs">
+      <DependentUpon>CapNhatDiem.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WUC\Admin\CapNhatSinhVien.ascx.cs">
+      <DependentUpon>CapNhatSinhVien.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WUC\Admin\CapNhatSinhVien.ascx.designer.cs">
+      <DependentUpon>CapNhatSinhVien.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WUC\Dangky.ascx.cs">
+      <DependentUpon>Dangky.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WUC\Dangky.ascx.designer.cs">
+      <DependentUpon>Dangky.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WUC\DangNhap.ascx.cs">
+      <DependentUpon>DangNhap.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WUC\DangNhap.ascx.designer.cs">
+      <DependentUpon>DangNhap.ascx</DependentUpon>
     </Compile>
     <Compile Include="Main.Master.cs">
       <DependentUpon>Main.Master</DependentUpon>
@@ -115,39 +167,40 @@
     <Compile Include="Main.Master.designer.cs">
       <DependentUpon>Main.Master</DependentUpon>
     </Compile>
-    <Compile Include="WUC\Menu.ascx.cs">
+    <Compile Include="WUC\User\Menu.ascx.cs">
       <DependentUpon>Menu.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WUC\Menu.ascx.designer.cs">
+    <Compile Include="WUC\User\Menu.ascx.designer.cs">
       <DependentUpon>Menu.ascx</DependentUpon>
     </Compile>
-    <Compile Include="MonHocCuaSinhVienDTO.cs" />
-    <Compile Include="MonHocDTO.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="SinhVienBUS.cs" />
-    <Compile Include="SinhVienDAO.cs" />
-    <Compile Include="SinhVienDTO.cs" />
-    <Compile Include="TaiKhoanSinhVienDTO.cs" />
-    <Compile Include="WUC\TraCuuDiem.ascx.cs">
+    <Compile Include="WUC\Admin\Menu_Admin.ascx.cs">
+      <DependentUpon>Menu_Admin.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WUC\Admin\Menu_Admin.ascx.designer.cs">
+      <DependentUpon>Menu_Admin.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="WUC\User\TraCuuDiem.ascx.cs">
       <DependentUpon>TraCuuDiem.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WUC\TraCuuDiem.ascx.designer.cs">
+    <Compile Include="WUC\User\TraCuuDiem.ascx.designer.cs">
       <DependentUpon>TraCuuDiem.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WUC\TraCuuThuHang.ascx.cs">
+    <Compile Include="WUC\User\TraCuuThuHang.ascx.cs">
       <DependentUpon>TraCuuThuHang.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WUC\TraCuuThuHang.ascx.designer.cs">
+    <Compile Include="WUC\User\TraCuuThuHang.ascx.designer.cs">
       <DependentUpon>TraCuuThuHang.ascx</DependentUpon>
     </Compile>
-    <Compile Include="WUC\User.ascx.cs">
+    <Compile Include="WUC\User\User.ascx.cs">
       <DependentUpon>User.ascx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="WUC\User.ascx.designer.cs">
+    <Compile Include="WUC\User\User.ascx.designer.cs">
       <DependentUpon>User.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
@@ -162,6 +215,16 @@
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BUS\BUS.csproj">
+      <Project>{09dd9d4d-115a-4251-b0ee-6e97d02c5a67}</Project>
+      <Name>BUS</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DTO\DTO.csproj">
+      <Project>{90822264-fbc3-404f-84a3-e012ee1b6aca}</Project>
+      <Name>DTO</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -56,7 +56,12 @@
     <Content Include="Admin\Admin.aspx" />
     <Content Include="Admin\CapNhatDiem.aspx" />
     <Content Include="Admin\CapNhatSinhVien.aspx" />
+    <Content Include="App_Data\QuanLyHocTap.mdf" />
+    <Content Include="App_Data\QuanLyHocTap_log.ldf">
+      <DependentUpon>QuanLyHocTap.mdf</DependentUpon>
+    </Content>
     <Content Include="DangKy.aspx" />
+    <Content Include="Image\banner.png" />
     <Content Include="index.aspx" />
     <Content Include="User\TraCuuDiem.aspx" />
     <Content Include="User\TraCuuThuHang.aspx" />
@@ -204,9 +209,7 @@
       <DependentUpon>User.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="Main.Master" />
     <None Include="Web.Debug.config">

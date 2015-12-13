@@ -40,11 +40,18 @@ namespace QuanLiHocTap.WUC
                 return;
             }
 
-            if (monHocCuaSinhVienBUS.ThemMonHocCuaSinhVien(TextBox_MSSVLayDiem.Text, TextBox_MaMonHoc.Text, Convert.ToDouble(TextBox_Diem.Text), Convert.ToInt32(TextBox_HocKy.Text)))
+            if (Convert.ToDouble(TextBox_Diem.Text) >= 0 && Convert.ToDouble(TextBox_Diem.Text) <= 10 &&
+                Convert.ToInt32(TextBox_HocKy.Text) > 0 && Convert.ToInt32(TextBox_HocKy.Text) <= 8 &&
+                monHocCuaSinhVienBUS.ThemMonHocCuaSinhVien(TextBox_MSSVLayDiem.Text, TextBox_MaMonHoc.Text, Convert.ToDouble(TextBox_Diem.Text), Convert.ToInt32(TextBox_HocKy.Text)))
             {
                 GridView_BangDiemSV.DataSource = monHocCuaSinhVienBUS.LayDanhSachDiem(TextBox_MSSVLayDiem.Text);
                 GridView_BangDiemSV.DataBind();
                 Label_ThongBao.Text = "Thêm điểm môn học thành công!";
+            }
+            else
+            {
+                Label_ThongBao.Text = "Thông tin nhập điểm chưa chính xác!";
+                return;
             }
         }
 
@@ -68,11 +75,18 @@ namespace QuanLiHocTap.WUC
                 return;
             }
 
-            if (monHocCuaSinhVienBUS.CapNhatMonHocCuaSinhVien(TextBox_MSSVLayDiem.Text, TextBox_MaMonHoc.Text, Convert.ToDouble(TextBox_Diem.Text), Convert.ToInt32(TextBox_HocKy.Text)))
+            if (Convert.ToDouble(TextBox_Diem.Text) >= 0 && Convert.ToDouble(TextBox_Diem.Text) <= 10 &&
+                Convert.ToInt32(TextBox_HocKy.Text) > 0 && Convert.ToInt32(TextBox_HocKy.Text) <= 8 && 
+                monHocCuaSinhVienBUS.CapNhatMonHocCuaSinhVien(TextBox_MSSVLayDiem.Text, TextBox_MaMonHoc.Text, Convert.ToDouble(TextBox_Diem.Text), Convert.ToInt32(TextBox_HocKy.Text)))
             {
                 GridView_BangDiemSV.DataSource = monHocCuaSinhVienBUS.LayDanhSachDiem(TextBox_MSSVLayDiem.Text);
                 GridView_BangDiemSV.DataBind();
                 Label_ThongBao.Text = "Cập nhật điểm môn học thành công!";
+            }
+            else
+            {
+                Label_ThongBao.Text = "Thông tin nhập điểm chưa chính xác!";
+                return;
             }
         }
 
@@ -101,6 +115,11 @@ namespace QuanLiHocTap.WUC
                 GridView_BangDiemSV.DataSource = monHocCuaSinhVienBUS.LayDanhSachDiem(TextBox_MSSVLayDiem.Text);
                 GridView_BangDiemSV.DataBind();
                 Label_ThongBao.Text = "Xóa sinh điểm môn học thành công!";
+            }
+            else
+            {
+                Label_ThongBao.Text = "Thông tin điểm chưa chính xác!";
+                return;
             }
         }
 

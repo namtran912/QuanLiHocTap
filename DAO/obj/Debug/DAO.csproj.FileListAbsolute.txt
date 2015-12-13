@@ -5,4 +5,3 @@ D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\bin\Debug\DTO.dll
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\bin\Debug\DTO.pdb
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\obj\Debug\DAO.dll
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\obj\Debug\DAO.pdb
-D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\bin\Debug\QuanLyHocTap_log.ldf

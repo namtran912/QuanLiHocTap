@@ -11,7 +11,7 @@ namespace QuanLiHocTap
         public List<MonHoc> LayDanhSachMonHoc()
         {
             string query
-                = "SELECT * FROM MonHoc";
+                = "SELECT * FROM MonHoc ORDER BY [Ma mon hoc] ASC";
 
             List<MonHoc> list = new List<MonHoc>();
             DataTable dt = DataProvider.ExecuteQuery(query);

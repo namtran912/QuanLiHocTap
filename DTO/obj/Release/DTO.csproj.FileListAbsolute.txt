@@ -1,0 +1,4 @@
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DTO\bin\Release\DTO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DTO\bin\Release\DTO.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DTO\obj\Release\DTO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DTO\obj\Release\DTO.pdb

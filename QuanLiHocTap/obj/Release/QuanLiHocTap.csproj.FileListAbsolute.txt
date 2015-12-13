@@ -1,0 +1,13 @@
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\QuanLyHocTap_log.ldf
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\QuanLiHocTap.dll.config
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\QuanLiHocTap.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\QuanLiHocTap.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\BUS.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\DTO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\DAO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\BUS.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\DTO.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\DAO.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\obj\Release\QuanLiHocTap.csprojResolveAssemblyReference.cache
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\obj\Release\QuanLiHocTap.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\obj\Release\QuanLiHocTap.pdb

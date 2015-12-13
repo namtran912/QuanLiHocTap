@@ -12,9 +12,10 @@ namespace QuanLiHocTap
     {
         private static SqlConnection sqlcnt = null;
 
-        static DataProvider()
+        static DataProvider() 
         {
-            sqlcnt = new SqlConnection(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\QuanLyHocTap.mdf;Integrated Security=True;");
+            sqlcnt = new SqlConnection(ConfigurationManager.ConnectionStrings["QLHH"].ConnectionString);
+               
         }
 
         public static DataTable ExecuteQuery(string query)

@@ -7,4 +7,3 @@ D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Debug\DTO.pdb
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\obj\Debug\BUS.csprojResolveAssemblyReference.cache
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\obj\Debug\BUS.dll
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\obj\Debug\BUS.pdb
-D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Debug\QuanLyHocTap_log.ldf

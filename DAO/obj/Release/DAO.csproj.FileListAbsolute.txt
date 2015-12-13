@@ -1,0 +1,8 @@
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\bin\Release\QuanLyHocTap_log.ldf
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\bin\Release\DAO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\bin\Release\DAO.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\bin\Release\DTO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\bin\Release\DTO.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\obj\Release\DAO.csprojResolveAssemblyReference.cache
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\obj\Release\DAO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\DAO\obj\Release\DAO.pdb

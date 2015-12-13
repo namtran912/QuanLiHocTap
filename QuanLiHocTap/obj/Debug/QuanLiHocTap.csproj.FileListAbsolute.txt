@@ -10,4 +10,3 @@ D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\DAO.dll
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\BUS.pdb
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\DTO.pdb
 D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\DAO.pdb
-D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\QuanLiHocTap\bin\QuanLyHocTap_log.ldf

@@ -299,11 +299,16 @@ namespace QuanLiHocTap
                 monHocCuaSinhVienDTO.Diem.ToString() + ", " +
                 monHocCuaSinhVienDTO.HocKi.ToString() + ")";
 
-            
+            try
+            {
                 DataProvider.ExecuteNonQuery(query);
                 return true;
-           
-
+            }
+            catch
+            {
+                return false;
+            }
+                
             return false;
         }
 
@@ -333,11 +338,16 @@ namespace QuanLiHocTap
                                     "[Hoc ky] = '" + monHocCuaSinhVienDTO.HocKi.ToString() + "' " +
                               "WHERE [Ma so sinh vien] = '" + monHocCuaSinhVienDTO.MaSoSinhVien + "' and [Ma mon hoc] = '" + monHocCuaSinhVienDTO.MaMonHoc + "'";
 
-            
+
+            try
+            {
                 DataProvider.ExecuteNonQuery(query);
                 return true;
-            
-        
+            }
+            catch
+            {
+                return false;
+            }
 
             return false;
         }

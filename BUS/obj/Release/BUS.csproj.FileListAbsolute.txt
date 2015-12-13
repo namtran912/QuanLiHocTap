@@ -1,0 +1,10 @@
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Release\QuanLyHocTap_log.ldf
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Release\BUS.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Release\BUS.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Release\DAO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Release\DTO.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Release\DAO.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\bin\Release\DTO.pdb
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\obj\Release\BUS.csprojResolveAssemblyReference.cache
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\obj\Release\BUS.dll
+D:\hoc\PTTKPM\ZZZZZZZZ\QuanLiHocTap\BUS\obj\Release\BUS.pdb

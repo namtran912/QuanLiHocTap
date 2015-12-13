@@ -27,17 +27,24 @@
             background-color: #CCCCCC;
             }
         .auto-style18 {
-            height: 26px;
-            background-color: 
+            height: 60px;
+            background-color:
         }
         .auto-style20 {
-            height: 137px;
+            height: 60px;
             width: 908px;
         }
         .auto-style21 {
             height: 28px;
             background-color: #777;
             width: 20%;
+        }
+        .auto-style22 {
+            height: 2px;
+            background-color: ;
+        }
+        .auto-style23 {
+            width: 908px;
         }
         </style>
 </head>
@@ -58,14 +65,18 @@
                 </td>
             </tr>
             <tr>
-                <td class="auto-style18">
+                <td class="auto-style22">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
                     </asp:ContentPlaceHolder>
                 </td>
-                <td class="auto-style20">
+                <td class="auto-style23" rowspan="2">
                     <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                     </asp:ContentPlaceHolder>
                 </td>
+            </tr>
+            <tr>
+                <td class="auto-style18">
+                    &nbsp;</td>
             </tr>
             <tr>
                 <td class="auto-style3" colspan="2"></td>

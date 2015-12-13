@@ -16,11 +16,11 @@
         height: 25px;
     }
     .auto-style23 {
-        height: 33px;
+        height: 195px;
     }
     .auto-style24 {
         width: 130px;
-        height: 33px;
+        height: 195px;
     }
     .auto-style27 {
         width: 388px;
@@ -28,10 +28,16 @@
     }
     .auto-style28 {
         width: 388px;
-        height: 33px;
+        height: 195px;
     }
     .auto-style29 {
         width: 81px;
+    }
+    .auto-style30 {
+        width: 388px;
+    }
+    .auto-style32 {
+        width: 130px;
     }
     </style>
 
@@ -74,6 +80,15 @@
             <br />
             <br />
             <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
+            <br />
         </td>
         <td class="auto-style3">&nbsp;&nbsp;&nbsp;&nbsp;
             <br />
@@ -98,28 +113,36 @@
             <br />
         </td>
         <td class="auto-style29">
-            &nbsp;<br />
+            <br />
             <br />
             <br />
             <br />
             <asp:Label ID="Label_ThongBao" runat="server"></asp:Label>
             <br />
             <br />
-            <table border="1" class="auto-style1">
+            <table border="0" class="auto-style1">
                 <tr>
-                    <td aria-grabbed="undefined" class="auto-style27">&nbsp;&nbsp;&nbsp; Mã môn học</td>
-                    <td aria-grabbed="undefined" class="auto-style9">&nbsp; Điểm</td>
-                    <td aria-grabbed="undefined" class="auto-style10">&nbsp;Học kỳ</td>
+                    <td aria-grabbed="undefined" class="auto-style27" style="border-style: double">&nbsp;&nbsp;&nbsp; Mã môn học</td>
+                    <td aria-grabbed="undefined" class="auto-style9" style="border-style: double">&nbsp; Điểm</td>
+                    <td aria-grabbed="undefined" class="auto-style10" style="border-style: double">&nbsp;Học kỳ</td>
+                </tr>
+                <tr>
+                    <td aria-grabbed="undefined" class="auto-style30" style="border-style: none double double double">
+                        <asp:TextBox ID="TextBox_MaMonHoc" runat="server" Height="26px" Width="102px"></asp:TextBox>
+                    </td>
+                    <td aria-grabbed="undefined" style="border-style: none double double double">
+                        <asp:TextBox ID="TextBox_Diem" runat="server" Height="28px" style="margin-top: 0px" Width="47px"></asp:TextBox>
+                    </td>
+                    <td aria-grabbed="undefined" class="auto-style32" style="border-style: none double double double">
+                        <asp:TextBox ID="TextBox_HocKy" runat="server" Height="28px" Width="50px"></asp:TextBox>
+                    </td>
                 </tr>
                 <tr>
                     <td aria-grabbed="undefined" class="auto-style28">
-                        <asp:TextBox ID="TextBox_MaMonHoc" runat="server" Height="26px" Width="102px"></asp:TextBox>
                     </td>
                     <td aria-grabbed="undefined" class="auto-style23">
-                        <asp:TextBox ID="TextBox_Diem" runat="server" Height="28px" style="margin-top: 0px" Width="47px"></asp:TextBox>
                     </td>
                     <td aria-grabbed="undefined" class="auto-style24">
-                        <asp:TextBox ID="TextBox_HocKy" runat="server" Height="28px" Width="50px"></asp:TextBox>
                     </td>
                 </tr>
             </table>
